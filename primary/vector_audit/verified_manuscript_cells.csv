@@ -1,0 +1,118 @@
+table,model_or_comparison,metric
+Table 3,Seq-only,AUC
+Table 3,Seq-only,AP
+Table 3,Seq-only,ACC
+Table 3,Seq-only,F1
+Table 3,Seq-only,MCC
+Table 3,Phys-only,AUC
+Table 3,Phys-only,AP
+Table 3,Phys-only,ACC
+Table 3,Phys-only,F1
+Table 3,Phys-only,MCC
+Table 3,Concat,AUC
+Table 3,Concat,AP
+Table 3,Concat,ACC
+Table 3,Concat,F1
+Table 3,Concat,MCC
+Table 3,Cross-attn,AUC
+Table 3,Cross-attn,AP
+Table 3,Cross-attn,ACC
+Table 3,Cross-attn,F1
+Table 3,Cross-attn,MCC
+Table 4,Concat - Seq-only,delta_SD
+Table 4,Concat - Seq-only,CI
+Table 4,Concat - Seq-only,tail
+Table 4,Cross-attn - Seq-only,delta_SD
+Table 4,Cross-attn - Seq-only,CI
+Table 4,Cross-attn - Seq-only,tail
+Table 4,Cross-attn - Concat,delta_SD
+Table 4,Cross-attn - Concat,CI
+Table 4,Cross-attn - Concat,tail
+Table 4,Cross-attn - Concat-matched,delta_SD
+Table 4,Cross-attn - Concat-matched,CI
+Table 4,Cross-attn - Concat-matched,tail
+Table 4,Cross-attn - Concat-active-matched,delta_SD
+Table 4,Cross-attn - Concat-active-matched,CI
+Table 4,Cross-attn - Concat-active-matched,tail
+Table 5,Seq-only,Sensitivity
+Table 5,Seq-only,Specificity
+Table 5,Seq-only,Precision
+Table 5,Seq-only,F1
+Table 5,Seq-only,Balanced_accuracy
+Table 5,Seq-only,FPR
+Table 5,Seq-only,FNR
+Table 5,Phys-only,Sensitivity
+Table 5,Phys-only,Specificity
+Table 5,Phys-only,Precision
+Table 5,Phys-only,F1
+Table 5,Phys-only,Balanced_accuracy
+Table 5,Phys-only,FPR
+Table 5,Phys-only,FNR
+Table 5,Concat,Sensitivity
+Table 5,Concat,Specificity
+Table 5,Concat,Precision
+Table 5,Concat,F1
+Table 5,Concat,Balanced_accuracy
+Table 5,Concat,FPR
+Table 5,Concat,FNR
+Table 5,Cross-attn,Sensitivity
+Table 5,Cross-attn,Specificity
+Table 5,Cross-attn,Precision
+Table 5,Cross-attn,F1
+Table 5,Cross-attn,Balanced_accuracy
+Table 5,Cross-attn,FPR
+Table 5,Cross-attn,FNR
+Table 6,Concat,total_params
+Table 6,Concat,active_params
+Table 6,Concat,AUC
+Table 6,Concat,AP
+Table 6,Concat-matched,total_params
+Table 6,Concat-matched,active_params
+Table 6,Concat-matched,AUC
+Table 6,Concat-matched,AP
+Table 6,Concat-active-matched,total_params
+Table 6,Concat-active-matched,active_params
+Table 6,Concat-active-matched,AUC
+Table 6,Concat-active-matched,AP
+Table 6,Cross-attn,total_params
+Table 6,Cross-attn,active_params
+Table 6,Cross-attn,AUC
+Table 6,Cross-attn,AP
+Table S5,Seq-only,threshold
+Table S5,Seq-only,MCC
+Table S5,Seq-only,ACC
+Table S5,Seq-only,Sensitivity
+Table S5,Seq-only,Specificity
+Table S5,Phys-only,threshold
+Table S5,Phys-only,MCC
+Table S5,Phys-only,ACC
+Table S5,Phys-only,Sensitivity
+Table S5,Phys-only,Specificity
+Table S5,Concat,threshold
+Table S5,Concat,MCC
+Table S5,Concat,ACC
+Table S5,Concat,Sensitivity
+Table S5,Concat,Specificity
+Table S5,Cross-attn,threshold
+Table S5,Cross-attn,MCC
+Table S5,Cross-attn,ACC
+Table S5,Cross-attn,Sensitivity
+Table S5,Cross-attn,Specificity
+Table S5,Concat-matched,threshold
+Table S5,Concat-matched,MCC
+Table S5,Concat-matched,ACC
+Table S5,Concat-matched,Sensitivity
+Table S5,Concat-matched,Specificity
+Table S5,Concat-active-matched,threshold
+Table S5,Concat-active-matched,MCC
+Table S5,Concat-active-matched,ACC
+Table S5,Concat-active-matched,Sensitivity
+Table S5,Concat-active-matched,Specificity
+Table 2,1,params
+Table 2,2,params
+Table 2,3,params
+Table 2,4,params
+Table 2,5,params
+Table 2,6,params
+Table 2,7,params
+Table 2,8,params

@@ -1,0 +1,13 @@
+{
+  "manuscript_file": "VNUHCM_Homology_R2_GO_Submission_Final.docx",
+  "manuscript_sha256": "10473c9a1991b2b5a8bd17e6677f5a6d8c6b058742da8f4e64799917bc7f31f5",
+  "primary_archive_sha256": "3d210cc74f565b0a2f1dd6b25757fff1e075893ff8f0c422f78f1a73c2754f99",
+  "alignment_archive_sha256": "f2eb6a3a3b48828df037dab42c160eef1183d2e79e201364bbd7193fdc08ed4d",
+  "tables": 23,
+  "figures": 7,
+  "snapshot": "2026-11-26",
+  "figure_source": "SVG parts of the current Word manuscript, in numerical image order",
+  "source_release_zip_sha256": "d8101f0293b227b3846de8e982c3e3dcd6803fa3ef25acfd404040e615bd7f0d",
+  "original_blastp_evidence_zip_sha256": "7098630d9c3b1ff3e98e9d57193dcba8efa361f52ca8b6d87ca11813b79032c1",
+  "release_edits": "Working-directory prefixes were made relative in BLAST execution records and the chunk runner. Checksums cover the distributed copies. The ESM license accompanies the weights."
+}

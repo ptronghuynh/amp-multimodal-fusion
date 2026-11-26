@@ -1,0 +1,23 @@
+{
+  "n": 250,
+  "seed_counts": {
+    "42": 50,
+    "52": 50,
+    "62": 50,
+    "72": 50,
+    "82": 50
+  },
+  "top_features": [
+    "Hydrophobic fraction",
+    "Aliphatic fraction",
+    "KD hydropathy",
+    "Basic fraction",
+    "Sulfur fraction",
+    "Aromatic fraction",
+    "Acidic fraction"
+  ],
+  "pearson_mean": 0.35543040960310945,
+  "pearson_sd": 0.3779939065937985,
+  "spearman_mean": 0.38928571428571435,
+  "spearman_sd": 0.3755004219617124
+}

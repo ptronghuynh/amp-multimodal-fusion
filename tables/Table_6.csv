@@ -1,0 +1,5 @@
+Model,Total params,Q/K-excluded params,ROC-AUC,AP
+Concat,84225,84225,0.8631 ± 0.0021,0.8817 ± 0.0016
+Concat-matched,479025,479025,0.8647 ± 0.0028,0.8851 ± 0.0020
+Concat-active-matched,347425,347425,0.8647 ± 0.0033,0.8845 ± 0.0029
+Cross-attn,478977,347393,0.8458 ± 0.0050,0.8700 ± 0.0050

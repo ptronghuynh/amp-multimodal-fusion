@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+outputs_reproduced/
+figures_reproduced/
+runtime_reproduced/
+.DS_Store
+Thumbs.db

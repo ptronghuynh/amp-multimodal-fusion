@@ -1,0 +1,4 @@
+Model,Trainable params (total),AUC,Sensitivity,Specificity
+Concat,98817,0.8760,77.1%,82.4%
+Concat (high-capacity),131841,0.8780,77.8%,81.9%
+Cross-attn,148481,0.8650,81.5%,73.2%

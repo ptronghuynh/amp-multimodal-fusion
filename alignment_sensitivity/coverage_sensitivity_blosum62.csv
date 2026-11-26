@@ -1,0 +1,13 @@
+search,coverage,unique_cross_pairs,unique_test_train_pairs,unique_test_val_pairs,unique_train_val_pairs
+BLOSUM62_standard,0.5,438,238,29,171
+BLOSUM62_standard,0.6,244,139,16,89
+BLOSUM62_standard,0.7,112,64,8,40
+BLOSUM62_standard,0.8,35,20,2,13
+BLOSUM62_standard,0.9,15,6,2,7
+BLOSUM62_standard,1.0,1,1,0,0
+BLOSUM62_permissive_all,0.5,723,389,39,295
+BLOSUM62_permissive_all,0.6,346,196,17,133
+BLOSUM62_permissive_all,0.7,136,80,10,46
+BLOSUM62_permissive_all,0.8,36,20,1,15
+BLOSUM62_permissive_all,0.9,17,7,1,9
+BLOSUM62_permissive_all,1.0,1,1,0,0

@@ -1,0 +1,6 @@
+search,records,qualifying_rows,unique_pairs,train_test,val_test,train_val,test_endpoints,amp_test_endpoints,nonamp_test_endpoints
+set_A,68.0,68.0,38,21,2,15,20,18,2
+BLOSUM62_standard,69552.0,63.0,35,20,2,13,19,17,2
+BLOSUM62_permissive_test_queries,170577.0,21.0,21,20,1,0,19,17,2
+BLOSUM62_permissive_all,1702664.0,71.0,36,20,1,15,19,17,2
+union,,,47,26,2,19,25,22,3

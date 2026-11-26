@@ -1,0 +1,17 @@
+{
+  "fits": 30,
+  "test_predictions": 15630,
+  "val_predictions": 15690,
+  "max_prediction_error": 1.1102230246251565e-16,
+  "embedding_shape": [
+    5219,
+    320
+  ],
+  "python": "3.13.5",
+  "torch": "2.10.0+cpu",
+  "machine": "x86_64",
+  "processor": "",
+  "test_positive": 271,
+  "test_negative": 250,
+  "new_checkpoints_collapsed": 5
+}

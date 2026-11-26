@@ -1,0 +1,4 @@
+Model,"Trainable params (total, M)",Model storage (MB),"Latency (ms/peptide, bs=1)","Peak memory (MB, bs=1)","Throughput (peptides/s, bs=64)"
+Seq-only,0.0412,0.1593,0.7837,50.6851,2520.1166
+Concat,0.0988,0.3790,0.7896,51.0645,2553.7098
+Cross-attn,0.1485,0.5708,1.4267,51.6343,2513.8136

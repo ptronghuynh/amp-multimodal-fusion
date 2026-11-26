@@ -1,0 +1,12 @@
+Metric,Value
+Total sequences (unique),5219
+AMP / non-AMP (overall),2679 / 2540
+"Length, aa (median; Q1–Q3; range)",67; 47–85; 11–100
+Sequences <30 aa,412 / 5219 (7.89%)
+Homology criterion for splitting,BLASTP edge: pident ≥ 40% AND alnlen/qlen ≥ 0.8 AND alnlen/tlen ≥ 0.8
+Split assignment unit,Connected components of similarity graph
+Random seed,42
+Train / Val / Test (n),4175 / 523 / 521
+AMP / non-AMP (train / val / test),2134/2041 ; 274/249 ; 271/250
+AMP fraction (train / val / test),51.114% / 52.390% / 52.015%
+Qualifying cross-partition pairs (all subsets),"PAM30: 0; set A: 38; BLOSUM62: 35 (standard), 36 (permissive); union: 47"

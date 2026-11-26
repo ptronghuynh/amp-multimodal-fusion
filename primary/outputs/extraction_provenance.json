@@ -1,0 +1,17 @@
+{
+  "model": "esm2_t6_8M_UR50D",
+  "checkpoint_sha256": "46f002a9870c9bdecd0ea887acb1f9a38a6b561e8f8bf8a6990b679b9d31b928",
+  "sequences": 5219,
+  "dimension": 320,
+  "layer": 6,
+  "pooling": "mean over residues, excluding BOS/EOS and padding",
+  "device": "CPU",
+  "threads": 4,
+  "batch_size": 64,
+  "extraction_loop_seconds": 58.62365546399997,
+  "reference_overlap": 1322,
+  "reference_max_abs_difference": 3.814697265625e-06,
+  "reference_min_cosine": 0.9999997615814209,
+  "torch_version": "2.10.0+cpu",
+  "implementation": "checkpoint-backed PyTorch inference, validated against the archived fair-esm embedding caches"
+}

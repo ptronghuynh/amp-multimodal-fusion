@@ -1,0 +1,32 @@
+{
+  "seeds": [
+    42,
+    52,
+    62,
+    72,
+    82
+  ],
+  "models": [
+    "Seq-only",
+    "Phys-only",
+    "Concat",
+    "Concat-matched",
+    "Concat-active-matched",
+    "Cross-attn"
+  ],
+  "train": 4175,
+  "validation": 523,
+  "test": 521,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "batch_size": 64,
+  "max_epochs": 12,
+  "early_stopping_patience": 4,
+  "checkpoint_selection": "minimum validation loss",
+  "loss": "BCEWithLogitsLoss",
+  "phys7_standardization": false,
+  "device": "cpu",
+  "torch": "2.10.0+cpu",
+  "source": "R2 Reproducibility/source/run_sevenD.py; full audited partition; regenerated frozen ESM-2 embeddings",
+  "phys_only": false
+}

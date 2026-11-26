@@ -1,0 +1,10 @@
+Model,ACC,ROC-AUC,F1,MCC
+Published baselines (reported for context only),,,,
+"iAMP-2L (Xiao et al., 2013) [31]",0.7310,0.8020,0.7180,0.4650
+"AMP-BERT (Lee et al., 2023)",0.7560,0.8290,0.7450,0.5140
+Single-modality (this work),,,,
+Seq-only,0.7700,0.8430,0.7680,0.5420
+Phys-only,0.6400,0.7100,0.6300,0.2830
+Multimodal fusion (this work),,,,
+Concat,0.7970,0.8760,0.7960,0.5950
+Cross-attn,0.7760,0.8650,0.7890,0.5520

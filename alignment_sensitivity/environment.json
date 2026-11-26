@@ -1,0 +1,8 @@
+{
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "scikit-learn": "1.8.0",
+  "biopython": "1.86",
+  "blastp": "2.16.0+; build Jun 25 2024 08:58:03"
+}

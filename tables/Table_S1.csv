@@ -1,0 +1,7 @@
+Coverage cutoff,All-vs-all alignment set A,Short-peptide all-vs-all set B,BLASTP 2.16.0+ all-vs-all (short),Test-to-train alignment set C,BLASTP 2.16.0+ test-to-train
+0.5,563,1072,682,487,309
+0.6,277,366,263,164,124
+0.7,119,98,82,38,33
+0.8,38,0,0,0,0
+0.9,16,0,0,0,0
+1.0,1,0,0,0,0

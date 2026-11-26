@@ -1,0 +1,10 @@
+{
+  "cache": "esm2_cache_full.npy",
+  "sha256": "0656587c53b5d648e3c15b11c78998f93104a9d3b1c4c2a9370d69f0a539e987",
+  "mode": "regenerated_from_supplied_ESM2_checkpoint",
+  "extraction_time_measured": true,
+  "reference_overlap": 507,
+  "reference_max_abs_difference": 2.86102294921875e-06,
+  "reference_mean_abs_difference": 1.4285528493473976e-07,
+  "reference_min_cosine": 0.9999997615814209
+}

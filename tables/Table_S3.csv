@@ -1,0 +1,4 @@
+Comparison (A vs B),ΔAUC (mean ± std),95% CI (percentile),Tail fraction Pr(Δ≤0)
+Concat vs Seq-only,0.0338 ± 0.0094,"[0.0150, 0.0520]",0.0010
+Cross-attn vs Seq-only,0.0229 ± 0.0097,"[0.0040, 0.0420]",0.0060
+Cross-attn vs Concat,−0.0109 ± 0.0066,"[−0.0240, 0.0020]",0.9560

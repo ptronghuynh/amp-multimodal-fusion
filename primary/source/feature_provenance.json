@@ -1,0 +1,8 @@
+{
+  "original_notebook_sha256": "82792f70c54ec050c12e919b0270aa0f8081a8ee5b24d868bd6e05b657b8c6e3",
+  "cell_index": 88,
+  "execution_count": 136,
+  "extracted_source_sha256": "5fad16034ce56a8d5d5e09005ec269ddd9d8a44dfa326c9caf7a51253eef9ae2",
+  "original_training_script_sha256": "5d6c93b014aa088da8cba60cca208f0f5ef43e3ea0edbc345fb67238d335957a",
+  "modification": "Only replace notebook-cell loading with an import of the identical extracted feature code. Model, training and evaluation statements unchanged."
+}

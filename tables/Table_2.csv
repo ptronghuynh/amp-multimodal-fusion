@@ -1,0 +1,9 @@
+Model / configuration,Input dim,Hidden width,Attention,Trainable params (total)
+Seq-only (7-D primary),320,None,–,321
+Phys-only (7-D primary),7,64,–,577
+Concat (7-D primary),327,256,–,84225
+Cross-attn (7-D primary),320 + 7,256,4 heads; H=256,478977
+Seq-only (64-D config.),320,128,–,41217
+Phys-only (64-D config.),64,128,–,8449
+Concat (64-D config.),384,256,–,98817
+Cross-attn (64-D config.),320 + 64,128,4 heads; H=128,148481

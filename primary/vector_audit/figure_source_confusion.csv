@@ -1,0 +1,17 @@
+model,true,predicted,mean_count,row_percent
+Seq-only,non-AMP,non-AMP,190.8,76.32000000000001
+Seq-only,non-AMP,AMP,59.2,23.68
+Seq-only,AMP,non-AMP,91.2,33.65313653136531
+Seq-only,AMP,AMP,179.8,66.34686346863468
+Phys-only,non-AMP,non-AMP,152.0,60.8
+Phys-only,non-AMP,AMP,98.0,39.2
+Phys-only,AMP,non-AMP,102.8,37.933579335793354
+Phys-only,AMP,AMP,168.2,62.06642066420663
+Concat,non-AMP,non-AMP,190.8,76.32000000000001
+Concat,non-AMP,AMP,59.2,23.68
+Concat,AMP,non-AMP,69.2,25.535055350553503
+Concat,AMP,AMP,201.8,74.4649446494465
+Cross-attn,non-AMP,non-AMP,196.0,78.4
+Cross-attn,non-AMP,AMP,54.0,21.6
+Cross-attn,AMP,non-AMP,81.4,30.036900369003693
+Cross-attn,AMP,AMP,189.6,69.96309963099631

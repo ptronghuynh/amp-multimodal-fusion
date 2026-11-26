@@ -1,0 +1,14 @@
+Hyperparameter,Value (stratified comparison / homology-aware)
+Optimizer,Adam / Adam
+Learning rate,0.001 / 0.001
+Weight decay,0 / 0
+Batch size,64 / 64
+Maximum epochs,10 / 12
+Early stopping patience,Not applied / 4 epochs
+Gradient clipping max norm,Not applied / not applied
+LR scheduler,None / none
+LR scheduler patience,Not applicable
+LR scheduler factor,Not applicable
+Dropout probability,No dropout layer / no dropout layer
+Random seeds,"42 / 42, 52, 62, 72, 82"
+Model selection criterion,Final epoch / minimum validation loss

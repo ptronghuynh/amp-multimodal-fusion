@@ -1,0 +1,19 @@
+class CrossModalModel(nn.Module):
+    def __init__(self, seq_dim=320, phys_dim=64, hidden_dim=128, num_heads=4):
+        super().__init__()
+        self.seq_proj  = nn.Linear(seq_dim, hidden_dim)
+        self.phys_proj = nn.Linear(phys_dim, hidden_dim)
+        self.attn = nn.MultiheadAttention(hidden_dim, num_heads=num_heads, batch_first=True)
+        self.fc = nn.Sequential(
+            nn.Linear(hidden_dim * 2, 128),
+            nn.ReLU(),
+            nn.Linear(128, 1)
+        )
+
+    def forward(self, batch):
+        seq = self.seq_proj(batch["seq_emb"]).unsqueeze(1)
+        phys = self.phys_proj(batch["phys"]).unsqueeze(1)
+        seq_attn, _ = self.attn(seq, phys, phys)
+        phys_attn, _ = self.attn(phys, seq, seq)
+        joint = torch.cat([seq_attn.squeeze(1), phys_attn.squeeze(1)], dim=-1)
+        return self.fc(joint).squeeze(-1)

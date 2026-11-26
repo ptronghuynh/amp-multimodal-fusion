@@ -1,0 +1,41 @@
+{
+  "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "device": "cpu",
+  "threads": 1,
+  "interop_threads": 1,
+  "python": "3.13.5",
+  "pytorch": "2.10.0+cpu",
+  "dtype": "float32",
+  "seed": 42,
+  "inputs": 507,
+  "input_sha256": "0ff822dcc480ec37badc7bc68f2a6b14391620c4e041ac4314ce3ff75a8a6d54",
+  "model_definitions_sha256": "58f137bdf47bd732ff7ba1bf5adb57317a1fa92b4a520c9243d65ee914c69501",
+  "checkpoints": {
+    "Seq-only": {
+      "path": "outputs/Seq-only_seed42.pt",
+      "sha256": "11213e6daa2a84e9a6a81890d19b075def228c4df79ecdaef411f0656ab78905",
+      "parameters": 41217,
+      "file_bytes": 167341
+    },
+    "Concat": {
+      "path": "outputs/Concat_seed42.pt",
+      "sha256": "64e62e832cb0ca4da80ea115576b87c5d6dfb6f82c780ee7e249ad4e9904df6d",
+      "parameters": 98817,
+      "file_bytes": 397721
+    },
+    "Cross-attn": {
+      "path": "outputs/Cross-attn_seed42.pt",
+      "sha256": "809a7968129ffbde07d4452b14dce018f7cfdc9cefb24a1e274860a2cbe0b6dc",
+      "parameters": 148481,
+      "file_bytes": 598579
+    }
+  },
+  "warmup_calls": 100,
+  "repetitions": 5,
+  "calls_per_repetition": 507,
+  "batch_sizes": [
+    1,
+    64
+  ],
+  "scope": "model forward plus sigmoid; preconstructed CPU tensors; no embedding extraction, feature computation, model loading, transfer, or I/O"
+}

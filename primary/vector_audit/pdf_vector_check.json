@@ -1,0 +1,55 @@
+{
+  "manuscript_pages": 43,
+  "manuscript_raster_images": 0,
+  "figures": [
+    {
+      "figure": 1,
+      "vector_paths": 56,
+      "raster_images": 0,
+      "text_characters": 938,
+      "sha256": "e3ed35deef4ee791e2503e74778a2e64cb23f722f38f1deb6d8aeff907c59b17"
+    },
+    {
+      "figure": 2,
+      "vector_paths": 37,
+      "raster_images": 0,
+      "text_characters": 161,
+      "sha256": "38b66632013be565699d4e4b07a594b0074f2dc7d7519ca34c0aacdc9da84f20"
+    },
+    {
+      "figure": 3,
+      "vector_paths": 118,
+      "raster_images": 0,
+      "text_characters": 330,
+      "sha256": "8febd2a8cd3c210a163b5a8ba17d8083d3e9651b3ec41d0776709c49f1fbc43d"
+    },
+    {
+      "figure": 4,
+      "vector_paths": 42,
+      "raster_images": 0,
+      "text_characters": 176,
+      "sha256": "e3257c80b0333cc4adcb2a73e2c38be352610cb375533d98c20e55239dd1c811"
+    },
+    {
+      "figure": 5,
+      "vector_paths": 42,
+      "raster_images": 0,
+      "text_characters": 150,
+      "sha256": "c4d904ee6edc029481362765578eaeedac437d5dcd812520de64eea8004c6cfe"
+    },
+    {
+      "figure": 6,
+      "vector_paths": 21,
+      "raster_images": 0,
+      "text_characters": 488,
+      "sha256": "b708058cffd2d33dfcd17d5c69fd59ca1af79798785853f854a76b9f52f223cc"
+    },
+    {
+      "figure": 7,
+      "vector_paths": 119,
+      "raster_images": 0,
+      "text_characters": 165,
+      "sha256": "e9116544d28ef71442cd2dec3ec135e45bac462eafae2bb817a04c15230b3abd"
+    }
+  ]
+}
